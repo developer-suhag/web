@@ -1,0 +1,427 @@
+@media all and (max-width:1230px) {
+    .mid-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (max-width:1170px) {
+    .header-logo h1 {
+        font-size: 22px;
+        margin-top: 6px;
+    }
+    .video-right h1 {
+        font-size: 35px;
+        line-height: 1;
+    }
+    .video-right p {
+        font-size: 18px;
+        padding-top: 1rem;
+    }
+    .s-title h3 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+
+@media all and (max-width:1120px) {
+    .header-logo h1 {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .primary-menu ul li a {
+        padding: 8px 5px;
+        font-size: 16px;
+    }
+    .banner-section h2 {
+        font-size: 50px;
+        margin: 18px 0;
+    }
+    .banner-section h3 {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width:1080px) {
+    .header-logo h1 {
+        font-size: 16px;
+        margin-top: 9px;
+    }
+    .primary-menu ul li a {
+        padding: 6px 5px;
+        font-size: 12px;
+    }
+    .h-btn {
+        padding: 6px 26px;
+        font-size: 15px;
+    }
+    .s-title h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+    .s-title p {
+        font-size: 19px;
+        padding-top: 15px;
+        margin-bottom: 22px;
+    }
+    .m-bio h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .b-heading h2 {
+        font-size: 40px;
+    }
+    .bt-content p {
+        font-size: 18px;
+    }
+    .n-title p {
+        font-size: 24px;
+    }
+    .n-title h2 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+}
+
+/* this is for main css */
+.primary-menu span{
+    display: none;
+}
+
+
+@media all and (max-width:992px) {
+    .header-logo {
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-logo img {
+        height: auto;
+        float: inherit;
+    }
+    .header-logo h1 {
+        margin-top: -42px;
+        margin-left: 200px;
+    }
+    .header-section {
+        height: 130px;
+    }
+    .primary-menu {
+        margin-left: 0;
+    }
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu {
+        width: 100%;
+    }
+    .header-button {
+        width: 200px;
+        position: absolute;
+        top: 72px;
+        right: 10px;
+    }
+    .primary-menu span {
+        font-size: 40px;
+        color: #627bdf;
+        cursor: pointer;
+        display: block;
+    }
+    .banner-section h2 {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .banner-section h2 {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .banner-section h3 {
+        font-size: 22px;
+    }
+    .header-section {
+        position: relative;
+    }
+    .banner-section {
+        margin-top: 0;
+    }
+    .video-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video-right {
+        width: 100%;
+    }
+    .p-items {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .p-items:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .p-t-top h2 {
+        font-size: 45px;
+        padding: 15px 0;
+    }
+    .p-t-top p {
+        font-size: 20px;
+        padding-bottom: 40px;
+        padding-top: 15px;
+    }
+    .pricing-table-items {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .p-heading h4 {
+        font-size: 30px;
+    }
+    .p-heading h1 {
+        font-size: 45px;
+    }
+    .p-heading span {
+        font-size: 25px;
+    }
+    .p-heading h5 {
+        font-size: 25px;
+    }
+    .p-heading p {
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+    .p-content ul li span {
+        width: 40px;
+    }
+    .p-content ul li {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    .team-title h4 {
+        font-size: 40px;
+        padding-top: 16px;
+    }
+    .m-bio h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .m-bio p {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .b-heading {
+        width: 100%;
+    }
+    .bt-content {
+        width: 100%;
+    }
+    .b-post-items img {
+        width: 96%;
+        margin-bottom: 15px;
+    }
+    .b-post-items h3 {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .b-post-items p {
+        font-size: 20px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    .t-item {
+        width: 100%;
+    }
+    .t-user-img {
+        margin-left: 375px;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
+@media all and (max-width:900px) {
+    .m-bio h4 {
+        font-size: 16px;
+    }
+    .m-bio p {
+        font-size: 14px;
+    }
+    .n-title h2 {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .n-title p {
+        font-size: 24px;
+        line-height: 1;
+    }
+    .nl-form {
+        margin-top: 35px;
+    }
+    .n-title p {
+        font-size: 20px;
+    }
+    .n-title h2 {
+        font-size: 35px;
+    }
+}
+@media all and (max-width:950px) {
+    .t-user-img {
+        margin-left: 300px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .banner-section h2 {
+        font-size: 35px;
+    }
+    .banner-section h3 {
+        font-size: 20px;
+    }
+    .banner-section {
+        padding: 100px 0;
+    }
+    .video-right h1 {
+        font-size: 28px;
+    }
+    .p-items {
+        width: 100%;
+    }
+    .p-items:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(2n+2) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(1n+1) {
+        margin-right: 20px;
+    }
+    .service-section {
+        margin-top: 0px;
+    }
+    .p-t-top h2 {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    .p-t-top p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .member {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .m-bio h4 {
+        font-size: 20px;
+    }
+    .m-bio p {
+        font-size: 18px;
+    }
+    .b-post-items {
+        width: 100%;
+        background: #fff;
+        box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+        margin-bottom: 30px;
+    }
+    .b-heading h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .bt-content p {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .n-title h2 {
+        font-size: 30px;
+    }
+    .t-user-img {
+        margin-left: 260px;
+    }
+    .fotter-section p {
+        font-size: 16px;
+    }
+}
+@media all and (max-width:650px) {
+    .s-title h3 {
+        font-size: 30px;
+    }
+    .n-title h2 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+    .n-title p {
+        font-size: 22px;
+        line-height: 1;
+    }
+    .default-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .n-title p {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .n-title h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .contact-form h4 {
+        font-size: 22px;
+    }
+    .contact-form p {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:550px) {
+    .default-btn {
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .video-right h1 {
+        font-size: 22px;
+    }
+    .s-title h3 {
+        font-size: 26px;
+    }
+    .s-title p {
+        font-size: 18px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .member {
+        width: 100%;
+    }
+    .n-title p {
+        font-size: 18px;
+    }
+    .n-title h2 {
+        font-size: 20px;
+    }
+    .t-user-img {
+        margin-left: 160px;
+    }
+    .contact-form .submit-btn {
+        padding: 15px 70px;
+        position: relative;
+        top: 0;
+        left: 120px;
+    }
+    .submit-btn {
+        font-size: 24px;
+    }
+    .fotter-section span {
+        font-size: 18px;
+    }
+    .fotter-section p {
+        font-size: 16px;
+    }
+} 
