@@ -1,0 +1,702 @@
+@media all and (max-width:1230px) {
+    .mid-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (max-width:1170px) {
+    .header-logo h1 {
+        font-size: 22px;
+        margin-top: 6px;
+    }
+    .video-right h1 {
+        font-size: 35px;
+        line-height: 1;
+    }
+    .video-right p {
+        font-size: 18px;
+        padding-top: 1rem;
+    }
+    .s-title h3 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+
+@media all and (max-width:1120px) {
+    .header-logo h1 {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .primary-menu ul li a {
+        padding: 8px 5px;
+        font-size: 16px;
+    }
+    .banner-section h2 {
+        font-size: 50px;
+        margin: 18px 0;
+    }
+    .banner-section h3 {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width:1080px) {
+    .header-logo h1 {
+        font-size: 16px;
+        margin-top: 9px;
+    }
+    .primary-menu ul li a {
+        padding: 6px 5px;
+        font-size: 12px;
+    }
+    .h-btn {
+        padding: 6px 26px;
+        font-size: 15px;
+    }
+    .s-title h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+    .s-title p {
+        font-size: 19px;
+        padding-top: 15px;
+        margin-bottom: 22px;
+    }
+    .m-bio h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .b-heading h2 {
+        font-size: 40px;
+    }
+    .bt-content p {
+        font-size: 18px;
+    }
+    .n-title p {
+        font-size: 24px;
+    }
+    .n-title h2 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+}
+
+/* this is for main css */
+.primary-menu span{
+    display: none;
+}
+.mobile-menu-check{
+    display: none;
+}
+
+
+@media all and (max-width:992px) {
+    .header-logo {
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-logo img {
+        height: auto;
+        float: inherit;
+    }
+    .header-logo h1 {
+        margin-top: -42px;
+        margin-left: 200px;
+    }
+    .header-section {
+        height: 100%;
+    }
+    .primary-menu {
+        margin-left: 0;
+    }
+
+    .header-menu {
+        width: 100%;
+    }
+    .header-button {
+        width: 200px;
+        position: absolute;
+        top: 72px;
+        right: 10px;
+    }
+
+    .banner-section h2 {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .banner-section h2 {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .banner-section h3 {
+        font-size: 22px;
+    }
+    .header-section {
+        position: relative;
+    }
+    .banner-section {
+        margin-top: 0;
+    }
+    .video-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video-right {
+        width: 100%;
+    }
+    .p-items {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .p-items:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .p-t-top h2 {
+        font-size: 45px;
+        padding: 15px 0;
+    }
+    .p-t-top p {
+        font-size: 20px;
+        padding-bottom: 40px;
+        padding-top: 15px;
+    }
+    .pricing-table-items {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .p-heading h4 {
+        font-size: 30px;
+    }
+    .p-heading h1 {
+        font-size: 45px;
+    }
+    .p-heading span {
+        font-size: 25px;
+    }
+    .p-heading h5 {
+        font-size: 25px;
+    }
+    .p-heading p {
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+    .p-content ul li span {
+        width: 40px;
+    }
+    .p-content ul li {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    .team-title h4 {
+        font-size: 40px;
+        padding-top: 16px;
+    }
+    .m-bio h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .m-bio p {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .b-heading {
+        width: 100%;
+    }
+    .bt-content {
+        width: 100%;
+    }
+    .b-post-items img {
+        width: 96%;
+        margin-bottom: 15px;
+    }
+    .b-post-items h3 {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .b-post-items p {
+        font-size: 20px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    .t-item {
+        width: 100%;
+    }
+    .t-user-img {
+        margin-left: 375px;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+
+    /* mobile menu css */
+    .primary-menu span {
+        font-size: 40px;
+        color: #627bdf;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 83px;
+        left: 28px;
+        pointer-events: none;
+        opacity: 1;
+        visibility: visible;
+}
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+.primary-menu .mobile-menu-check:checked ~ ul{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+    .primary-menu ul li {
+        display: block;
+    }
+    .primary-menu ul li ul {
+        top: -84px;
+        left: 122px;
+    }
+    .primary-menu ul li ul li a {
+        line-height: 20px;
+    }
+    .alada-class {
+        top: 0px !important;
+    }
+    .primary-menu ul li ul li {
+        border-bottom: none;
+    }
+
+    .mobile-menu-check {
+        display: block;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+        cursor: pointer;
+        position: relative;
+    }
+
+    
+    .click-ar-por {
+        position: absolute;
+        top: 75px;
+        left: 26px;
+        font-size: 48px;
+        color: #111;
+        opacity: 0;
+        visibility: hidden;
+    }
+  
+    .primary-menu .mobile-menu-check:checked ~ ::before{
+        opacity: 1;
+        visibility: visible;
+    }
+    .mobile-menu-check:checked ~ span{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .mobile-menu-check:checked ~ .click-ar-por{
+        opacity: 1;
+        visibility: visible;
+        pointer-events: none
+    }
+}
+@media all and (max-width:900px) {
+    .m-bio h4 {
+        font-size: 16px;
+    }
+    .m-bio p {
+        font-size: 14px;
+    }
+    .n-title h2 {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .n-title p {
+        font-size: 24px;
+        line-height: 1;
+    }
+    .nl-form {
+        margin-top: 35px;
+    }
+    .n-title p {
+        font-size: 20px;
+    }
+    .n-title h2 {
+        font-size: 35px;
+    }
+}
+@media all and (max-width:950px) {
+    .t-user-img {
+        margin-left: 300px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .banner-section h2 {
+        font-size: 35px;
+    }
+    .banner-section h3 {
+        font-size: 20px;
+    }
+    .banner-section {
+        padding: 100px 0;
+    }
+    .video-right h1 {
+        font-size: 28px;
+    }
+    .p-items {
+        width: 100%;
+    }
+    .p-items:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(2n+2) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(1n+1) {
+        margin-right: 20px;
+    }
+    .service-section {
+        margin-top: 0px;
+    }
+    .p-t-top h2 {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    .p-t-top p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .member {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .m-bio h4 {
+        font-size: 20px;
+    }
+    .m-bio p {
+        font-size: 18px;
+    }
+    .b-post-items {
+        width: 100%;
+        background: #fff;
+        box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+        margin-bottom: 30px;
+    }
+    .b-heading h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .bt-content p {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .n-title h2 {
+        font-size: 30px;
+    }
+    .t-user-img {
+        margin-left: 260px;
+    }
+    .fotter-section p {
+        font-size: 16px;
+    }
+}
+@media all and (max-width:650px) {
+    .s-title h3 {
+        font-size: 30px;
+    }
+    .n-title h2 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+    .n-title p {
+        font-size: 22px;
+        line-height: 1;
+    }
+    .default-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .n-title p {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .n-title h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .contact-form h4 {
+        font-size: 22px;
+    }
+    .contact-form p {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:550px) {
+    .default-btn {
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .video-right h1 {
+        font-size: 22px;
+    }
+    .s-title h3 {
+        font-size: 26px;
+    }
+    .s-title p {
+        font-size: 18px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .member {
+        width: 100%;
+    }
+    .n-title p {
+        font-size: 18px;
+    }
+    .n-title h2 {
+        font-size: 20px;
+    }
+    .t-user-img {
+        margin-left: 160px;
+    }
+    .contact-form .submit-btn {
+        padding: 15px 70px;
+        position: relative;
+        top: 0;
+        left: 120px;
+    }
+    .submit-btn {
+        font-size: 24px;
+    }
+    .fotter-section span {
+        font-size: 18px;
+    }
+    .fotter-section p {
+        font-size: 16px;
+    }
+} 
+
+@media all and (max-width:500px) {
+    .header-logo h1 {
+        margin-top: -42px;
+        margin-left: 78px;
+        font-size: 14px;
+    }
+    .header-logo img {
+        margin-left: -80px;
+    }
+    .banner-section h2 {
+        font-size: 28px;
+    }
+    .banner-section h3 {
+        font-size: 16px;
+    }
+    .default-btn {
+        padding: 10px 16px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .banner-section {
+        padding: 50px 0;
+    }
+    .video-right h1 {
+        font-size: 16px;
+    }
+    .video-right p {
+        font-size: 14px;
+    }
+    .s-title h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .s-title p {
+        font-size: 14px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .s-content h3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .s-content p {
+        font-size: 16px;
+    }
+    .p-items {
+        width: 100%;
+        /* margin-left: -20px; */
+    }
+    .p-items span {
+        font-size: 50px;
+        width: 60px;
+        color: #6278DF;
+        float: none;
+        min-height: 150px;
+        margin-right: 15px;
+    }
+    .p-t-top h2 {
+        font-size: 18px;
+        padding: 6px 0;
+    }
+    .p-t-top p {
+        font-size: 13px;
+        padding-top: 8px;
+    }
+    .pricing-table-items {
+        width: 100%;
+        /* margin-left: -46px; */
+    }
+    .p-heading h4 {
+        font-size: 24px;
+    }
+    .p-heading h1 {
+        font-size: 35px;
+    }
+    .p-heading h1 {
+        margin: 15px 0;
+        font-weight: 500;
+    }
+    .p-heading span {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .p-heading h5 {
+        font-size: 20px;
+    }
+    .p-heading p {
+        font-size: 16px;
+    }
+    .p-content ul li span {
+        width: 25px;
+        font-size: 20px;
+    }
+    .p-content ul li {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .default-btn {
+        padding: 10px 14px;
+        font-size: 16px;
+    }
+    .p-button {
+        width: 100%;
+    }
+    .team-title h4 {
+        font-size: 22px;
+        padding-top: 0;
+    }
+    .m-bio h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .m-bio p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .submit-btn {
+        font-size: 21px;
+        padding: 8px 50px;
+    }
+    .default-input {
+        padding: 15px 25px;
+    }
+    .b-heading h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .bt-content p {
+        font-size: 15px;
+    }
+    .b-post-items img {
+        width: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .b-post-items h3 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .b-post-items p {
+        font-size: 18px;
+    }
+    .n-title h2 {
+        font-size: 18px;
+    }
+    .n-title p {
+        font-size: 16px;
+    }
+    .t-content p {
+        font-size: 16px;
+    }
+    .t-content p::before {
+        font-size: 60px;
+        top: 47px;
+        left: 8px;
+    }
+    .t-content {
+        padding: 50px 15px;
+    }
+    .t-user-img {
+        margin-left: 56px;
+    }
+    .t-user-img img {
+        width: 60px;
+        margin-right: 20px;
+    }
+    .t-user-bio h4 {
+        font-size: 18px;
+    }
+    .t-user-bio span {
+        font-size: 14px;
+    }
+    .contact-form h4 {
+        font-size: 20px;
+    }
+    .contact-form p {
+        font-size: 14px;
+    }
+    .contact-form .w50 {
+        width: 100%;
+    }
+    .default-input {
+        padding: 10px 25px;
+    }
+    .contact-form textarea {
+        height: 100px;
+    }
+    .contact-form .submit-btn {
+        left: 40px;
+    }
+    .fotter-section p {
+        font-size: 12px;
+    }
+    .fotter-section span {
+        font-size: 14px;
+    }
+}
