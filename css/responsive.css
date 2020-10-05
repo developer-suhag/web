@@ -89,6 +89,9 @@
 .primary-menu span{
     display: none;
 }
+.mobile-menu-check{
+    display: none;
+}
 
 
 @media all and (max-width:992px) {
